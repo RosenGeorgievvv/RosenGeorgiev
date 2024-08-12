@@ -1,9 +1,8 @@
-function App() {
+import React from 'react'
 
+const App = () => {
   return (
-    <>
-  Hi
-    </>
+    <div>App</div>
   )
 }
 
