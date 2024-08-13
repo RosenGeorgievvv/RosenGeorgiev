@@ -18,7 +18,7 @@ const Main = () => {
         </div>
         <div className='w-full md:w-1/2 lg:p-8'>
           <div className='flex justify-center'>
-            <img src={profile} width={550} height={550} alt='Rosen Georgiev' className='rounded-3xl' />
+            <img src={profile} width={450} height={450} alt='Rosen Georgiev' className='rounded-3xl' />
           </div>
         </div>
     </section>
