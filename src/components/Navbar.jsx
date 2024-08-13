@@ -15,10 +15,10 @@ const Navbar = () => {
     e.preventDefault();
     const targetElement = document.querySelector(href);
     if (targetElement) {
-      const offset = -85;
+      const offset = -65;
       const elementPosition = targetElement.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.scrollY + offset;
-
+  
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
@@ -26,6 +26,7 @@ const Navbar = () => {
     }
     setIsMobileMenuOpen(false);
   };
+  
 
   return (
     <div>
