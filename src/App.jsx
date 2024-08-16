@@ -9,7 +9,7 @@ const App = () => {
       <div className="fixed inset-0 bgfixed bg-cover bg-center bg-img">
         <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
           <Main />
-          <Navbar /> 
+          <Navbar />  
           <Projects />
         </div>
       </div>
