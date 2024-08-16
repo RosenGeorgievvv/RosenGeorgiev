@@ -13,7 +13,7 @@ const Main = () => {
           {HERO.greet}
         </p>
         <p className="mb-8 p-2 text-xl">
-          {HERO.description}         
+          {HERO.description}          
         </p>
       </div>
       <div className="w-full md:w-1/2 lg:p-8">
