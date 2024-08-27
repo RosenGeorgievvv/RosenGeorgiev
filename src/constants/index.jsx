@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
   import cameraProject from "../assets/camera.png";
   import movieProject from "../assets/movie.png";
   import quizProject from "../assets/quiz.png";
+  import movies from '../assets/movies.png';
   
   import { RiReactjsLine } from "react-icons/ri";
   import { TbBrandNextjs } from "react-icons/tb";
@@ -34,20 +35,21 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
         "A freelance demo project for a customer, built with React and Firebase. ",
       image: cameraProject,
       githubLink: "https://github.com/RosenGeorgievvv/camera-rental",
+      demoLink: "https://camera-rental.vercel.app",
     },
     {
       id: 2,
       name: "Movie Magic",
       description:
         "A movie library website built with ExpressJS to show my skill with the technology. Variety of functionalities. Try it!",
-      image: movieProject,
+      image: movies,
       githubLink: "https://github.com/RosenGeorgievvv/Movie-Magic",
     },
     {
       id: 3,
       name: "Movie World",
       description:
-        "MovieWorld is a dynamic web application designed for movie enthusiasts.The project showcases a seamless and intuitive user interface built with ReactJS and styled using TailwindCSS.The backend functionality is supported by Firebase, enabling user authentication and secure storage of user data.",
+        "MovieWorld is a dynamic web application designed for movie enthusiasts.",
       image: movieProject,
       githubLink: "https://github.com/RosenGeorgievvv/MovieWorld",
     },
@@ -55,9 +57,10 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
       id: 4,
       name: "Slice Heaven",
       description:
-        "SliceHeaven is a modern web application designed to provide users with a seamless and interactive experience for browsing and ordering pizzas. Built using ReactJS for the frontend, the application features a clean and responsive design powered by TailwindCSS and SASS. Additionally, SliceHeaven utilizes Redux for state management, ensuring smooth and efficient handling of user interactions and data flow across the application.",
+        "SliceHeaven is a modern web application designed to provide users with a seamless and interactive experience for browsing and ordering pizzas.",
       image: pizzaProject,
       githubLink: "https://github.com/RosenGeorgievvv/SliceHeaven",
+      demoLink: "https://slice-heaven.vercel.app",
     },
     {
       id: 5,
@@ -66,6 +69,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
         "Quizzy is an interactive quiz application designed to provide an engaging platform for users to test their knowledge across various topics.",
       image: quizProject,
       githubLink: "https://github.com/RosenGeorgievvv/Quizzy",
+      demoLink: "https://quizzy-inky.vercel.app",
     }
   ];
   
