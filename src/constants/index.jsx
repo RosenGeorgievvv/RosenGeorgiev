@@ -52,6 +52,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
         "MovieWorld is a dynamic web application designed for movie enthusiasts.",
       image: movieProject,
       githubLink: "https://github.com/RosenGeorgievvv/MovieWorld",
+      demoLink: "https://movie-world-rosy.vercel.app",
     },
     {
       id: 4,
