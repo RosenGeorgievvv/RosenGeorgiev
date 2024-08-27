@@ -21,7 +21,6 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
     { label: "Skills", href: "#skills" },
     { label: "Work Experience", href: "#work" },
     { label: "Education", href: "#education" },
-    { label: "Contact", href: "#contact" },
   ];
   
   export const HERO = {
