@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Projects from './components/Projects';
 import Bio from './components/Bio';
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Navbar />
           <Projects />
           <Bio />
+          <Skills />
       </div>
     </div>
   );

@@ -8,8 +8,12 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
   
   import { RiReactjsLine } from "react-icons/ri";
   import { TbBrandNextjs } from "react-icons/tb";
-  import { SiMongodb } from "react-icons/si";
+  import { SiJavascript, SiMongodb } from "react-icons/si";
   import { FaNodeJs } from "react-icons/fa";
+  import { IoLogoFirebase } from "react-icons/io5";
+
+
+
   
   export const NAVIGATION_LINKS = [
     { label: "Projects", href: "#projects" },
@@ -90,6 +94,11 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
       experience: "1 year",
     },
     {
+      icon: <SiJavascript className="text-4xl text-green-600 lg:text-5xl" />,
+      name: "Javascript",
+      experience: "3 years",
+    },
+    {
       icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
       name: "MongoDB",
       experience: "1 years",
@@ -97,6 +106,11 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
     {
       icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
       name: "Node.js",
+      experience: "1+ years",
+    },
+    {
+      icon: <IoLogoFirebase className="text-4xl text-green-600 lg:text-5xl" />,
+      name: "Firebase",
       experience: "1+ years",
     }
   ];
