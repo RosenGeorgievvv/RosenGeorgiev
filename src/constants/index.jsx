@@ -155,7 +155,7 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://github.com/RosenGeorgievvv",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
-  {
+  { 
     href: "https://www.linkedin.com/in/rosen-georgiev-253611180/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
