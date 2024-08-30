@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile Menu */}
-        <div className="rounded-lg backdrop-blur-md lg:hidden">
+        <div className="rounded-lg backdrop-blur-md lg:hidden ">
           <div className="flex items-center justify-between">
             <div>
               <a href="#">
