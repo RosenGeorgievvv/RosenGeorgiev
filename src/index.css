@@ -16,7 +16,7 @@ body{
 }
 
 .bg-img{
-  background-image: url("../src/assets/bg-img.png");
+  background-image: url("./assets/galaxy.mp4");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
