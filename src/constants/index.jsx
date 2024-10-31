@@ -35,7 +35,7 @@ export const PROJECTS = [
     description:
       "Freelance project build with ReactJS",
     image: cameraProject,
-    githubLink: "Private Repo",
+    githubLink: "https://github.com/RosenGeorgievvv/magicshop",
     demoLink: "https://www.magicshoprental.com",
   },
   {
