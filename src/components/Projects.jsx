@@ -37,7 +37,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="flex items-center rounded-full bg-white px-4 py-2 text-black hover:bg-green-300"
                 >
-                  <span>Demo</span>
+                  <span>{project.id === 1 ? "Official" : "Demo"}</span>
                 </a>
                 <a
                   href={project.githubLink}

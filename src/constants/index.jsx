@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 import pizzaProject from "../assets/pizza.png";
-import cameraProject from "../assets/camera.png";
+import cameraProject from "../assets/magicshoprental.png";
 import movieProject from "../assets/movie.png";
 import quizProject from "../assets/quiz.png";
 import movies from "../assets/movies.png";
