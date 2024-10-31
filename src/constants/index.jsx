@@ -31,12 +31,12 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Camera Rental",
+    name: "MagicShop Rental",
     description:
-      "A freelance demo project for a customer, built with React and Firebase. ",
+      "Freelance project build with ReactJS",
     image: cameraProject,
-    githubLink: "https://github.com/RosenGeorgievvv/camera-rental",
-    demoLink: "https://camera-rental.vercel.app",
+    githubLink: "Private Repo",
+    demoLink: "https://www.magicshoprental.com",
   },
   {
     id: 2,
