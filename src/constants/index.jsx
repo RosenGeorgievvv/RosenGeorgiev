@@ -6,7 +6,8 @@ import cameraProject from "../assets/magicshoprental.png";
 import movieProject from "../assets/movie.png";
 import quizProject from "../assets/quiz.png";
 import weather from "../assets/weather.png";
-import artist from '../assets/artist.png';
+import artist from "../assets/artist.png";
+import cv from "../assets/RG-CV.pdf";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -27,14 +28,14 @@ export const HERO = {
   greet: "Hello there! 👋🏻",
   description:
     "I am a dedicated frontend developer with a talent for crafting visually appealing and highly functional user interfaces. I enjoy turning concepts into captivating digital experiences, bringing creativity and technical expertise to every project for over a decade.",
+  cvLink: cv,
 };
 
 export const PROJECTS = [
   {
     id: 1,
     name: "MagicShop Rental",
-    description:
-      "Freelance project build with ReactJS",
+    description: "Freelance project build with ReactJS",
     image: cameraProject,
     githubLink: "https://github.com/RosenGeorgievvv/magicshop",
     demoLink: "https://www.magicshoprental.com",
@@ -42,11 +43,10 @@ export const PROJECTS = [
   {
     id: 2,
     name: "Artist Portfolio",
-    description:
-      "Freelance project for rap artist",
+    description: "Freelance project for rap artist",
     image: artist,
     githubLink: "https://github.com/RosenGeorgievvv/artist-portfolio",
-    demoLink: "gogata-xi.vercel.app"
+    demoLink: "gogata-xi.vercel.app",
   },
   {
     id: 3,
@@ -78,8 +78,7 @@ export const PROJECTS = [
   {
     id: 6,
     name: "Weather",
-    description:
-      "Weather App build with ReactJS",
+    description: "Weather App build with ReactJS",
     image: weather,
     githubLink: "https://github.com/RosenGeorgievvv/whats-the-weather",
     demoLink: "https://whats-the-weather-five.vercel.app",
@@ -165,8 +164,8 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://github.com/RosenGeorgievvv",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },        
-  { 
+  },
+  {
     href: "https://www.linkedin.com/in/rosen-georgiev-253611180/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },

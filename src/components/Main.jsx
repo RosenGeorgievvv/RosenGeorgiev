@@ -16,6 +16,13 @@ const Main = () => {
         <p className="mb-8 p-2 text-xl">
           {HERO.description}                   
         </p>
+        <a
+          href={HERO.cvLink}
+          download
+          className="inline-block px-5 py-3 mt-4 ml-2 text-white bg-blue-400 rounded-lg hover:bg-blue-500"
+        >
+          Download CV
+        </a>
       </motion.div>
       <motion.div initial={{opacity: 0, scale: 0.8}} animate={{ opacity: 1, scale: 1}} transition={{ duration: 1}} className="w-full md:w-1/2 lg:p-8">
         <div className="flex justify-center">
