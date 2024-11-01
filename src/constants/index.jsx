@@ -5,7 +5,8 @@ import pizzaProject from "../assets/pizza.png";
 import cameraProject from "../assets/magicshoprental.png";
 import movieProject from "../assets/movie.png";
 import quizProject from "../assets/quiz.png";
-import movies from "../assets/movies.png";
+import weather from "../assets/weather.png";
+import artist from '../assets/artist.png';
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -40,11 +41,12 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "Movie Magic",
+    name: "Artist Portfolio",
     description:
-      "A movie library website built with ExpressJS to show my skill with the technology. Variety of functionalities. Try it!",
-    image: movies,
-    githubLink: "https://github.com/RosenGeorgievvv/Movie-Magic",
+      "Freelance project for rap artist",
+    image: artist,
+    githubLink: "https://github.com/RosenGeorgievvv/artist-portfolio",
+    demoLink: "gogata-xi.vercel.app"
   },
   {
     id: 3,
@@ -72,6 +74,15 @@ export const PROJECTS = [
     image: quizProject,
     githubLink: "https://github.com/RosenGeorgievvv/Quizzy",
     demoLink: "https://quizzy-inky.vercel.app",
+  },
+  {
+    id: 6,
+    name: "Weather",
+    description:
+      "Weather App build with ReactJS",
+    image: weather,
+    githubLink: "https://github.com/RosenGeorgievvv/whats-the-weather",
+    demoLink: "https://whats-the-weather-five.vercel.app",
   },
 ];
 
