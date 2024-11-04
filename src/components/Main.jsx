@@ -4,7 +4,7 @@ import profile from '../assets/pic.jpeg';
 import {motion} from 'framer-motion';
 
 const Main = () => {
-  return (
+  return ( 
     <section className="flex flex-wrap items-center min-h-[100vh]">
       <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0}} transition={{duration: 1}} className="w-full md:w-1/2">
         <h2 className="my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[4rem]">
