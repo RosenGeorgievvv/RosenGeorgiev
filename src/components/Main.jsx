@@ -9,7 +9,7 @@ const Main = () => {
       <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0}} transition={{duration: 1}} className="w-full md:w-1/2">
         <h2 className="my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[4rem]">
           {HERO.name}
-        </h2> 
+        </h2>
         <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
           {HERO.greet}
         </p>
