@@ -3,7 +3,6 @@ import { HERO } from '../constants';
 import profile from '../assets/pic.jpeg';
 import {motion} from 'framer-motion';
 
-
 const Main = () => {
   return (
     <section className="flex flex-wrap items-center min-h-[100vh]">
