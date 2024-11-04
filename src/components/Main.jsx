@@ -16,7 +16,7 @@ const Main = () => {
         <p className="mb-8 p-2 text-xl">
           {HERO.description}                   
         </p>
-        <a 
+        <a
           href={HERO.cvLink}
           download
           className="inline-block px-5 py-3 mt-4 ml-2 text-white bg-blue-400 rounded-lg hover:bg-blue-500"
