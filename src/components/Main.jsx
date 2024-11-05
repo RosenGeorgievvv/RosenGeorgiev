@@ -22,7 +22,7 @@ const Main = () => {
           <a
             href={HERO.cvLink}
             download
-            className="inline-block px-5 py-3 mt-4 ml-2 text-white bg-blue-400 rounded-lg hover:bg-blue-500"
+            className="inline-block px-5 py-3 mt-4 ml-2 text-white font-bold bg-green-400 hover:bg-green-500 rounded-lg"
           >
             Download CV
           </a>
@@ -48,7 +48,7 @@ const Main = () => {
           <a
             href={HERO.cvLink}
             download
-            className="inline-block px-5 py-3 text-white bg-blue-400 rounded-lg hover:bg-blue-500"
+            className="inline-block px-5 py-3 text-white font-bold bg-green-400 hover:bg-green-500 rounded-lg"
           >
             Download CV
           </a>
